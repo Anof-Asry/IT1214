@@ -2,7 +2,6 @@ import java.util.*;
 public class Database{
   //  ArrayList<Customer> customers=new ArrayList<>();
   //  ArrayList<Item> items=new ArrayList<>();
-  //Change made by 62
 
 
     static void printMenue(){
@@ -24,7 +23,29 @@ public class Database{
         do{
             printMenue();
             option=sc.nextInt();
+            switch(option){
+              case 1:
+                break;
+              case 2:
+                break;
+              case 3:
+                break;
+              case 4:
+                break;
+              case 5:
+                break;
+              case 6:
+                break;
+              case 7:
+                break;
+              case 0:
+                System.out.println("Exiting the program...");
+                break;
+              default: 
+                System.out.println("Invalid choice!");
+            }
+          
         }while(option!=0);
 
-    }rhyruyu
+    }
 }
